@@ -17,7 +17,7 @@ k=0
 for i in range(0,int(n/2)):
     a=[]
     for j in range(0,2):
-        a.append(int(l[k]))
+        a.append(float(l[k]))
         k=k+1
     cordinator.append(a)
 
